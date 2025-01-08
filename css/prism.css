@@ -1,0 +1,809 @@
+*{
+  padding:0;
+  margin: 0;
+  font-family: "Raleway", serif;
+  /* background-color: red; */
+}
+
+
+html{
+  font-size: 10px;
+}
+
+
+/* NAVIGATION STARTS HERE */
+
+
+
+#mynavigation{
+  background: none;
+  border: none;
+  background-color: #fff;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+
+#mynavigation:hover{
+  background-color: #fff;
+}
+
+
+#mynavigation .navbar-brand{
+  position:relative;
+  color:#fd6802;
+  top:-20px;
+  font-size: 7rem;
+  font-weight: 600;
+}
+
+#mynavigation .navbar-brand span{
+  color:#999;
+}
+
+#mynavigation {
+  height:80px;
+  background-color: #fff;
+  border: none;
+}
+
+#mynavigation ul li a{
+  color:#1b1a1a;
+  font-size: 2rem;
+  background-color: #fff;
+  font-weight: 400;
+}
+
+#mynavigation ul li a:hover{
+  border-radius:25px 0px 25px 0px;
+  background-color: #fd6802;
+  color:#fff;
+}
+
+#mynavigation ul li{
+  margin-top: 20px;
+  /* margin-right: 25px; */
+  transform: 1s;
+}
+
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #000;
+}
+/* NAVIGATION ENDS HERE */
+
+
+
+
+/* FIRST SECTION STARTS HERE */
+
+.bg1{
+  height:100vh;
+  text-align: right;
+  position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-image:url("../Image/bg-1.jpg") ; */
+  background-image: linear-gradient(rgba(0, 0, 0,0.8)0%, rgba(0, 0, 0,0.8)100%),url("../Image/Man-1.jpg");
+}
+
+.bg2{
+  height:100vh;
+  text-align: center;
+  position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-image: url("../Image/bg-2.jpg"); */
+  background-image: linear-gradient(rgba(0, 0, 0,0.8)0%, rgba(0, 0, 0,0.8)100%),url("../Image/Man-2.jpg");
+}
+
+.bg3{
+  height:100vh;
+  text-align: left;
+  position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-image:url("../Image/bg-1.jpg") ; */
+  background-image: linear-gradient(rgba(0, 0, 0,0.8)0%, rgba(0, 0, 0,0.8)100%),url("../Image/Man-3.jpg");
+}
+
+.carousel ol li{
+  background-color:#fd6802;
+  border:1px solid #fff;
+}
+
+
+
+.carousel .carousel-control.left{
+  color:#fd6802;
+}
+
+.carousel .carousel-control.right{
+  color:#fd6802;
+}
+
+
+.first .content{
+  position:relative;
+  top:200px;
+  width:70%;
+  margin: 0 auto;
+  /* background-color: blanchedalmond; */
+}
+
+.first .content h1{
+  color:#fff;
+  font-weight: 600;
+  font-size: 5.5rem;
+}
+
+.first .content span{
+  color:#fd6802;
+}
+
+.first .content p{
+  color:#fff;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 20px ;
+  margin-bottom: 20px;
+}
+
+.btn1{
+  border-radius:25px 0px 25px 0px;
+  background-color:#fd6802;
+  color:#fff;
+  height: 45px;
+  width: 145px;
+  /* padding:12px 35px 12px 35px; */
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+
+.btn1:hover{
+  background-color: gray;
+  border: 2px solid #fd6802;
+}
+
+
+/* FIRST SECTION ENDS HERE */
+
+/* SECOND SECTION STARTS HERE */
+
+
+.sec-img img{
+  width:100%;
+}
+
+
+.second{
+  padding-top:70px;
+  padding-bottom:70px;
+}
+
+
+.sec-top{
+  margin-bottom: 70px;
+  padding: 9px 0px;
+  border-bottom: 0.2px dotted #999;
+}
+
+
+
+.sec-text h3{
+  color:#999;
+  font-size: 1.5rem;
+}
+
+
+.sec-text h2{
+  color:#1f1f1f;
+  font-size:3rem;
+}
+
+
+.sec-text p{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+
+.sec-text i{
+    font-size: 1.7rem;
+    line-height: 30px;
+    color:rgb(161, 160, 160);
+}
+
+
+
+.sec-text span{
+    color:#999;
+    font-size: 1.5rem;
+    line-height: 30px;
+}
+
+/* SECOND SECTION ENDS HERE */
+
+/* THIRD SECTION STARTS HERE */
+
+.third{
+  background-image: url(../Image/parallax_04.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 90px;
+}
+
+
+
+.three-box{
+  /* background-color: paleturquoise; */
+}
+
+
+.three-box .glyphicon{
+  color:#fff;
+  background-color:#fd6802;
+  border-radius:25px 0px 25px 0px;
+  font-size: 3.9rem;
+  padding:30px;
+}
+
+
+.three-box h2{
+  color:#fff;
+  font-size: 3.3rem;
+  font-weight: 700;
+}
+
+.three-box p{
+  color:rgb(255, 196, 0);
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+/* THIRD SECTION ENDS HERE */
+
+/* FOURTH SECTION STARTS HERE */
+
+.four{
+  background-color:#f2f3f5 ;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+
+
+.four-top{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.four-top h1{
+  color:#1b1a1a;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.four-top p{
+  color:#999;
+  font-size: 1.7rem;
+  line-height: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.four-bottom h3{
+    color:#1f1f1f;
+    font-size:2.3rem ;
+    font-weight: 600;
+}
+
+.four-bottom p{
+    color: #999;
+    font-size: 1.5rem;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.four-bottom .card{
+    background-color: #fff;
+}
+
+.four-bottom .card .content{
+    padding:12px;
+}
+
+.four-bottom .card img{
+    width:100%;
+}
+
+.four-btn{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.btn2{
+  border-radius:25px 0px 25px 0px;
+  background-color:#fd6802;
+  color:#fff;
+  padding:15px 40px 15px 40px;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.btn2:hover{
+  background-color: gray;
+  border: 2px solid #fd6802;
+}
+
+/* FOURTH SECTION ENDS HERE */
+
+/* FIFTH SECTION STARTS HERE */
+
+.five{
+  background-image: url("../Image/parallax_05.png");
+  position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.five-right img{
+  width:100%;
+}
+
+.five-left h1{
+  color:#fff;
+  font-weight: 500;
+  font-size: 4.5rem;
+}
+
+.five-left i{
+  color:#999;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 20px ;
+  margin-bottom: 30px;
+}
+
+.five-left p{
+  color:#fff;
+  margin-top:15px;
+  margin-bottom:15px;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.five-left p span{
+    margin-right: 5px;
+    color:#fff;
+}
+
+.five-left button{
+    margin-top: 25px;
+}
+
+
+
+
+/* FIFTH SECTION ENDS HERE */
+
+/* SIXTH SECTION STARTS HERE */
+
+.sixth{
+  padding: 80px 0px;
+  background-color:#f2f3f5 ;
+}
+
+.six-top{
+  text-align: center;
+  font-size: 2rem;
+}
+
+.six-top h1{
+  color: #000;
+  font-size: 5rem;
+} 
+
+.six-second img{
+  width: 100%;
+}
+
+.six-boxes{
+  background-color: #393939;
+  border-radius: 30px 0px 30px 0px;
+  margin-top: 45px;
+  /* padding: 30px 0px; */
+}
+
+.six-text{
+  color: #f2f3f5;
+}
+
+.six-text p{
+  color: #999;
+  font-size: 1.5rem;
+}
+
+.six-icons .glyphicon{
+  color: #fff;
+  font-size: 3rem;
+  background-color: #fd6802;
+  padding: 16px;
+  border-radius: 20px 0px 20px 0px;
+  position:relative;
+  left:45px;
+  top:-0.2px;
+  /* text-align: center; */
+}
+
+.six-icons1 .glyphicon{
+  color: #fff;
+  font-size: 4rem;
+  background-color: #fd6802;
+  padding: 16px;
+  border-radius: 20px 0px 20px 0px;
+  position:relative;
+  right:30px;
+  top:-0.2px;
+  /* text-align: center; */
+}
+
+
+
+
+/* SIXTH SECTION ENDS HERE */
+
+/* SEVENTH SECTION STARTS HERE */
+
+.seven{
+  padding: 80px 0px;
+  background-image:url(../Image/parallax_03.jpg);
+}
+
+.seven-top{
+  text-align: center;
+  font-size: 2rem;
+}
+
+.seven-top h1{
+  color: #fff;
+  font-size: 6rem;
+}
+
+
+.seven-top p{
+  color: #999;
+}
+
+
+.seven-grey{
+  background-color: #393939;
+  padding-left:40px;
+  padding-bottom: 32px;
+  padding-top: 22px;
+  border-radius:25px 0px 25px 0px;
+}
+
+.seven-grey h2{
+  font-size: 2.4rem;
+  color:#fff;
+  margin-bottom: 25px;
+  margin-top: 7px;
+}
+
+.seven-grey span{
+  color:#fd6802;
+  font-size: 2.5rem;
+}
+
+
+.seven-grey i{
+  color:#aaa;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.seven-pic{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.seven-left img{
+  width:100%;
+  position: relative
+  top:18px;
+  left:5px;
+}
+
+.seven-right h3{
+  color:#fff;
+  font-size: 1.8rem;
+}
+
+.seven-right i{
+  color:#aaa;
+  font-size: 1.6rem;
+}
+
+
+.seven-logos{
+  margin-top: 40px;
+}
+
+.seven-boxes img{
+  width:100%;
+}
+
+
+hr{
+  border:1px dashed #393939;
+}
+
+/* 
+.seven .carousel-control.left{
+    background: none;
+    color:#393939;
+    margin-top: 112px;
+}
+
+.seven .carousel-control.right{
+    background: none;
+    color:#393939;
+    margin-top: 112px;
+}
+ */
+
+
+ .seven a .glyphicon{
+  background-color: #fcbf02;
+  padding: 10px;
+  border-radius: 22px 0px 22px 0px;
+}
+
+
+
+/* 
+.inner{
+  width:85%;
+  background-color: rebeccapurple;
+  margin:0 auto;
+} */
+
+
+
+
+
+
+/* SEVENTH SECTION ENDS HERE */
+
+
+
+/* EIGHT SECTION STARTS HERE */
+
+
+.eight{
+  background-color: #393939;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.eight p{
+  color:#999;
+  font-size: 1.5rem;
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+.eight h2{
+  color:#fff;
+  font-size: 2.5rem;
+}
+
+.eight-one h1{
+  color:#fd6802;
+  font-size:3rem;
+}
+
+.eight-one span{
+  color:#aaa;
+}
+
+
+.eight ul{
+  margin-top: 20px;
+}
+
+.eight ul li a{
+  text-decoration: none;
+  color:#999;
+  font-size: 1.5rem;
+}
+
+.eight ul li{
+    list-style: none;
+    margin-bottom:10px ;
+    padding-bottom:10px ;
+    border-bottom:1px dashed #504f4f ;
+}
+
+.input-group{
+    margin-top: 20px;
+}
+
+/* EIGHT SECTION ENDS HERE */
+
+/* LAST SECTION STARTS HERE */
+
+.footer{
+  background-color: #010000;
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
+.footer p{
+  color:#666;
+  font-size:1.5rem;
+  font-weight: 300;
+}
+
+.footer span{
+  color:#fff;
+  font-weight: 400;
+  transition: 0.5s;
+}
+
+
+.footer span:hover{
+  color:#fd6802;
+}
+
+/* LAST SECTION ENDS HERE */
+
+
+
+
+
+/* MEDIA QUERY STARTS HERE */
+
+
+
+@media only screen and (max-width:1400px){
+    
+  /* section 1 */
+
+  .first .content{
+      top:450px;
+  }
+}
+
+@media only screen and (max-width:1400px){
+  .first .content{
+    top:200px;
+  }
+}
+
+
+
+
+
+
+@media only screen and (max-width:992px){
+
+  #mynavigation ul li a{
+    font-size: 1.5rem;
+  }
+  .six-icons{
+    position: relative;
+    right: 22px;
+  }
+
+  
+  .six-second img{
+    width: 100%;
+    margin-top: 45px;
+  }
+  
+}
+
+@media only screen and (max-width:768px){
+
+  .sec-img img{
+    margin-top: 25px;
+  }
+
+   .four-bottom .no{
+    display: none;
+
+  }
+
+  .five-right img{
+    margin-top: 40px;
+    width: 100;
+  }
+
+  .sixth .no{
+    display: none;
+  }
+
+  .six-icons .glyphicon{
+    position: relative;
+    left: 0px;
+  }
+
+  .eight-three{
+    text-align: center;
+  }
+
+  
+
+  
+}
+
+@media only screen and (max-width:450px){
+
+  .first .content{
+    position: relative;
+    top: 300px;
+  }
+
+  .first .content h1{
+    font-size: 2rem;
+  }
+
+  .first .content p{
+    font-size: 2rem;
+    line-height: 20px;
+  }
+
+  .btn1{
+    font-size: 1rem;
+    font-weight: 100;
+    /* padding: 5px 10px 5px 10px; */
+  }
+
+  .sec-img img{
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY ENDS  HERE */
+ 
+
+
+
+
+
+
+
+
+
+
+
+

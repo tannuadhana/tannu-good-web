@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+  font-family: "Raleway", serif;
+}
+
+
+html{
+    font-size: 10px;
+  }
+
+
+/* NAVIGATION STARTS HERE */
+
+
+
+#mynavigation{
+    background: none;
+    border: none;
+    background-color: #fff;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  }
+  
+  
+  #mynavigation:hover{
+    background-color: #fff;
+  }
+  
+  
+  #mynavigation .navbar-brand{
+    position:relative;
+    color:#fd6802;
+    top:-20px;
+    font-size: 7rem;
+    font-weight: 600;
+  }
+  
+  #mynavigation .navbar-brand span{
+    color:#999;
+  }
+  
+  #mynavigation {
+    height:80px;
+    background-color: #fff;
+    border: none;
+  }
+  
+  #mynavigation ul li a{
+    color:#1b1a1a;
+    font-size: 2rem;
+    background-color: #fff;
+    font-weight: 400;
+  }
+  
+  #mynavigation ul li a:hover{
+    border-radius:25px 0px 25px 0px;
+    background-color: #fd6802;
+    color:#fff;
+  }
+  
+  #mynavigation ul li{
+    margin-top: 20px;
+    /* margin-right: 25px; */
+    transform: 1s;
+  }
+  
+  /* NAVIGATION ENDS HERE */
+
+  /* FIRST SECTION STARTS HERE */
+
+  .first{
+    /* height: 70vh; */
+    background-image: linear-gradient(rgba(0, 0, 0,0.8)0%, rgba(0, 0, 0,0.8)100%),url("../Image/inner-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    padding: 170px 0px ;
+    color: #fff;
+  }
+
+ .first h1{
+  color: #fff;
+  font-size: 6rem;
+  border-left: 10px solid #fd6802;
+
+  }
+
+  .first h4:hover{
+    color: #fd6802;
+  }
+
+  /* FIRST SECTION ENDS HERE */
+
+  /* SECOND SECTION STARTS HERE */
+
+  .second{
+    padding: 70px 0px;
+    text-align: center;
+  }
+
+  .second-top h2{
+    font-size: 50px;
+    color: #000;
+  }
+
+  
+  .second-top p{
+    font-size: 20px;
+    color: #999;
+  }
+
+  
+
+
+  .second-down .box1{
+    height: 40vh;
+    background-color: orangered;
+    clip-path: polygon(0 0, 100% 0, 100% 46%, 0% 100%);
+    color: #fff;
+  }
+
+  .second-left p{
+    background-color: #fff;
+    clip-path: polygon(50% 0, 50% 0, 100% 30%, 100% 70%, 50% 100%, 50% 100%, 0% 70%, 0% 30%);
+    margin-top: 10px;
+    padding: 35px 0px;
+    font-size: 2rem;
+    color: orangered;
+  }
+
+  .second-left2 {
+    background-color:green;
+    position: relative;
+    top: -130px;
+    left: 18px;
+    margin-left: 40px;
+    color: #fd6802;
+    padding: 30px;
+    border: 2px solid orangered;
+    clip-path: polygon(50% 0, 50% 0, 100% 30%, 100% 70%, 50% 100%, 50% 100%, 0% 70%, 0% 30%);
+  }
+
+  .second-img .glyphicon{
+    font-size: 2rem;
+    background-color:pink;
+    border-radius: 100%;
+    padding: 5px;
+    
+  }
+
+  .second-text{
+    padding:5px ;
+    font-size: 20px;
+  }
+
+  .btn4{
+    border:2px solid orangered;
+    font-size: 3rem;
+    color: #fd6802;
+    font-weight: 300;
+    background-color: #fff;
+  }
+
+  
+  .btn4:hover{
+    color: #fff;
+    background-color: orangered;
+  }
+
+
+
+  /* SECOND SECTION ENDS HERE */
+
+  
+ /* THIRD SECTION STARTS HERE */
+
+
+.seven{
+  padding: 80px 0px;
+  background-image:url(../Image/parallax_03.jpg);
+}
+
+.seven-top{
+  text-align: center;
+  font-size: 2rem;
+}
+
+.seven-top h1{
+  color: #fff;
+  font-size: 6rem;
+}
+
+
+.seven-top p{
+  color: #999;
+}
+
+
+.seven-grey{
+  background-color: #393939;
+  padding-left:40px;
+  padding-bottom: 32px;
+  padding-top: 22px;
+  border-radius:25px 0px 25px 0px;
+}
+
+.seven-grey h2{
+  font-size: 2.4rem;
+  color:#fff;
+  margin-bottom: 25px;
+  margin-top: 7px;
+}
+
+.seven-grey span{
+  color:#fd6802;
+  font-size: 2.5rem;
+}
+
+
+.seven-grey i{
+  color:#aaa;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.seven-pic{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.seven-left img{
+  width:100%;
+  position: relative
+  top:18px;
+  left:5px;
+}
+
+.seven-right h3{
+  color:#fff;
+  font-size: 1.8rem;
+}
+
+.seven-right i{
+  color:#aaa;
+  font-size: 1.6rem;
+}
+
+
+.seven-logos{
+  margin-top: 40px;
+}
+
+.seven-boxes img{
+  width:100%;
+}
+
+
+hr{
+  border:1px dashed #393939;
+}
+
+/* 
+.seven .carousel-control.left{
+    background: none;
+    color:#393939;
+    margin-top: 112px;
+}
+
+.seven .carousel-control.right{
+    background: none;
+    color:#393939;
+    margin-top: 112px;
+}
+ */
+
+
+ .seven a .glyphicon{
+  background-color: #fcbf02;
+  padding: 10px;
+  border-radius: 22px 0px 22px 0px;
+}
+
+/* 
+.inner{
+  width:85%;
+  background-color: rebeccapurple;
+  margin:0 auto;
+} */
+
+
+/* THIRD SECTION ENDS HERE */
+
+
+
+/* FOURTH SECTION STARTS HERE */
+
+
+.eight{
+  background-color: #393939;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.eight p{
+  color:#999;
+  font-size: 1.5rem;
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+.eight h2{
+  color:#fff;
+  font-size: 2.5rem;
+}
+
+.eight-one h1{
+  color:#fd6802;
+  font-size:3rem;
+}
+
+.eight-one span{
+  color:#aaa;
+}
+
+
+.eight ul{
+  margin-top: 20px;
+}
+
+.eight ul li a{
+  text-decoration: none;
+  color:#999;
+  font-size: 1.5rem;
+}
+
+.eight ul li{
+    list-style: none;
+    margin-bottom:10px ;
+    padding-bottom:10px ;
+    border-bottom:1px dashed #504f4f ;
+}
+
+.input-group{
+    margin-top: 20px;
+}
+
+/* FOURTH SECTION ENDS HERE */
+
+/* LAST SECTION STARTS HERE */
+
+.footer{
+  background-color: #010000;
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
+.footer p{
+  color:#666;
+  font-size:1.5rem;
+  font-weight: 300;
+}
+
+.footer span{
+  color:#fff;
+  font-weight: 400;
+  transition: 0.5s;
+}
+
+
+.footer span:hover{
+  color:#fd6802;
+}
+
+/* LAST SECTION ENDS HERE */
+
+
+
+@media only screen and (max-width:992px){
+
+  #mynavigation ul li a{
+    font-size: 1.5rem;
+  }
+  .six-icons{
+    position: relative;
+    right: 22px;
+  }
+
+  
+  .six-second img{
+    width: 100%;
+    margin-top: 45px;
+  }
+
+  .second-down .box1{
+    height: 30vh;
+  }
+
+  .second-left p{
+    padding: 20px 0px;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

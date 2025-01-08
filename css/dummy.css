@@ -1,0 +1,63 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: "Raleway", serif;
+    /* background-color: red; */
+  }
+  
+  
+  html{
+    font-size: 10px;
+  }
+  
+  /* navigation */
+
+
+
+#mynavigation{
+    background: none;
+    border: none;
+    background-color: #fff;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+
+#mynavigation:hover{
+    background-color: #fff;
+}
+
+
+#mynavigation .navbar-brand{
+    position:relative;
+    color:#fd6802;
+    top:-20px;
+    font-size: 7rem;
+    font-weight: 600;
+}
+
+#mynavigation .navbar-brand span{
+    color:#999;
+}
+
+#mynavigation {
+    height:80px;
+    background-color: #fff;
+    border: none;
+}
+
+#mynavigation ul li a{
+    color:#1b1a1a;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#mynavigation ul li a:hover{
+    border-radius:25px 0px 25px 0px;
+    background-color: #fd6802;
+    color:#fff;
+}
+
+#mynavigation ul li{
+    margin-top: 20px;
+    transform: 1s;
+}
